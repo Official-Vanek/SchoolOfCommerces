@@ -1,0 +1,143 @@
+{
+  "brand_identity": {
+    "name": "School Of Commerce",
+    "archetype": "The Old Money Tech",
+    "description": "A fusion of Ivy League prestige and Fintech precision. Trustworthy, authoritative, yet cutting-edge.",
+    "emotional_tone": "Institutional, Wealth-Oriented, Academic, Sharp",
+    "theme_mode": "light", 
+    "theme_strategy": "Light mode default with Deep Emerald/Navy accents. Dark mode reserved for 'Trading/Night' view if needed, but primary is Light for readability."
+  },
+  "typography": {
+    "font_family": {
+      "display": "Playfair Display, serif",
+      "body": "DM Sans, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "font_weights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "bold": 700,
+      "black": 900
+    },
+    "scale": {
+      "h1": "text-5xl md:text-7xl font-black tracking-tighter leading-[0.9]",
+      "h2": "text-4xl md:text-5xl font-bold tracking-tight leading-tight",
+      "h3": "text-2xl md:text-3xl font-semibold tracking-normal",
+      "body_lg": "text-lg md:text-xl font-normal leading-relaxed",
+      "body_base": "text-base font-normal leading-relaxed text-slate-600",
+      "caption": "text-sm font-medium tracking-wide uppercase text-slate-500",
+      "mono_data": "font-mono text-sm tracking-tighter text-emerald-700"
+    },
+    "import_url": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "DEFAULT": "#064e3b",
+        "foreground": "#ffffff",
+        "50": "#ecfdf5",
+        "100": "#d1fae5",
+        "200": "#a7f3d0",
+        "300": "#6ee7b7",
+        "400": "#34d399",
+        "500": "#10b981",
+        "600": "#059669",
+        "700": "#047857",
+        "800": "#065f46",
+        "900": "#064e3b",
+        "950": "#022c22"
+      },
+      "secondary": {
+        "DEFAULT": "#f0fdf4",
+        "foreground": "#14532d"
+      },
+      "accent": {
+        "DEFAULT": "#d97706",
+        "foreground": "#ffffff"
+      },
+      "background": "#fdfbf7",
+      "foreground": "#0f172a",
+      "muted": "#f1f5f9",
+      "muted_foreground": "#64748b",
+      "card": "#ffffff",
+      "card_foreground": "#0f172a",
+      "border": "#e2e8f0",
+      "input": "#e2e8f0",
+      "ring": "#064e3b"
+    },
+    "gradients": {
+      "hero_overlay": "linear-gradient(180deg, rgba(6, 78, 59, 0.05) 0%, rgba(253, 251, 247, 1) 100%)",
+      "gold_shine": "linear-gradient(45deg, #d97706, #fbbf24, #d97706)"
+    }
+  },
+  "layout_strategies": {
+    "landing_page": {
+      "grid": "grid grid-cols-1 md:grid-cols-12 gap-8",
+      "container": "container mx-auto px-6 md:px-12 max-w-7xl",
+      "section_spacing": "py-24 md:py-32",
+      "alignment": "text-left (Standard), Asymmetric (Feature Highlights)"
+    },
+    "dashboard": {
+      "grid": "grid grid-cols-1 md:grid-cols-4 lg:grid-cols-12 gap-6",
+      "sidebar_width": "w-64",
+      "card_style": "bg-white border border-border/60 shadow-sm rounded-xl hover:shadow-md transition-all duration-300"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-6 py-2 rounded-md font-medium transition-all hover:-translate-y-0.5 shadow-lg shadow-primary/20",
+      "secondary": "bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-6 py-2 rounded-md font-medium border border-primary/10",
+      "outline": "border-2 border-primary text-primary hover:bg-primary/5 h-10 px-6 py-2 rounded-md font-medium",
+      "ghost": "hover:bg-accent/10 text-accent-foreground h-10 px-4 py-2 rounded-md font-medium"
+    },
+    "cards": {
+      "feature": "group relative overflow-hidden rounded-xl border bg-card p-8 hover:shadow-xl transition-all duration-500",
+      "stat": "relative overflow-hidden rounded-xl border bg-white p-6 shadow-sm",
+      "course": "group overflow-hidden rounded-xl border bg-card transition-all hover:shadow-lg hover:-translate-y-1"
+    },
+    "inputs": {
+      "default": "flex h-12 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50"
+    }
+  },
+  "assets": {
+    "images": {
+      "hero_bg": "https://images.unsplash.com/photo-1622016579436-14c1844c99ec?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHwzfHx1bml2ZXJzaXR5JTIwc3R1ZGVudHMlMjBzdHVkeWluZyUyMGxpYnJhcnklMjBjb21tZXJjZSUyMGZpbmFuY2V8ZW58MHx8fHwxNzczMjM5NTU4fDA&ixlib=rb-4.1.0&q=85",
+      "students_discussion": "https://images.unsplash.com/photo-1660128357991-713518efae48?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwc3R1ZGVudHMlMjBzdHVkeWluZyUyMGxpYnJhcnklMjBjb21tZXJjZSUyMGZpbmFuY2V8ZW58MHx8fHwxNzczMjM5NTU4fDA&ixlib=rb-4.1.0&q=85",
+      "library_walk": "https://images.unsplash.com/photo-1738832022080-2621004c86d2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHw0fHx1bml2ZXJzaXR5JTIwc3R1ZGVudHMlMjBzdHVkeWluZyUyMGxpYnJhcnklMjBjb21tZXJjZSUyMGZpbmFuY2V8ZW58MHx8fHwxNzczMjM5NTU4fDA&ixlib=rb-4.1.0&q=85",
+      "study_group": "https://images.unsplash.com/photo-1589872880544-76e896b0592c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHwyfHx1bml2ZXJzaXR5JTIwc3R1ZGVudHMlMjBzdHVkeWluZyUyMGxpYnJhcnklMjBjb21tZXJjZSUyMGZpbmFuY2V8ZW58MHx8fHwxNzczMjM5NTU4fDA&ixlib=rb-4.1.0&q=85",
+      "placeholder_logo": "https://placehold.co/200x50/064e3b/ffffff?text=COMMERCE+ACADEMY"
+    },
+    "icons": {
+      "library": "lucide-react",
+      "preferred_pack": "lucide-react"
+    }
+  },
+  "visual_enhancers": {
+    "texture": "bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20",
+    "glassmorphism": "bg-white/70 backdrop-blur-xl border-white/20 shadow-xl",
+    "borders": "border-slate-200"
+  },
+  "animations": {
+    "fade_in_up": "animate-in fade-in slide-in-from-bottom-4 duration-700 ease-out",
+    "hover_lift": "transition-transform duration-300 hover:-translate-y-1",
+    "stagger_children": "stagger-100"
+  },
+  "universal_guidelines": {
+    "avoid_ai_slop": true,
+    "use_gradients_sparingly": true,
+    "dark_mode_strategy": "class",
+    "interactive_elements_testid": true,
+    "toast_library": "sonner",
+    "chart_library": "recharts",
+    "form_library": "react-hook-form + zod"
+  },
+  "instructions_to_main_agent": [
+    "Install Google Fonts in index.css immediately.",
+    "Configure tailwind.config.js with the custom colors (primary: emerald-900, accent: amber-600) and fonts.",
+    "Use Shadcn UI components but heavily customized with the 'rounded-md' and 'border-slate-200' style.",
+    "For the Dashboard, use a Sidebar Layout with a 'Glass' header.",
+    "For the Landing Page, use 'Playfair Display' for all H1/H2 headings to create the 'Old Money' academic look.",
+    "Ensure all interactive elements have data-testid attributes."
+  ]
+}
